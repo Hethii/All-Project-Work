@@ -1,0 +1,102 @@
+from requirement import menu, resources
+
+
+def check_pay():
+    print("Please insert coins.")
+    quarters = float(input("how many quarters: "))
+    dimes = float(input("how many dimes?: "))
+    nickles = float(input("how many nickles?: "))
+    pennies = float(input("how many pennies?: "))
+    dimes_value = 0.10 * dimes
+    quarters_value = 0.25 * quarters
+    nickles_amount = 0.05 * nickles
+    pennies_amount = 0.01 * pennies
+    global total_paid
+    total_paid = quarters_value + nickles_amount + dimes_value + pennies_amount
+    return total_paid
+
+
+def process(order, present_resources, final_change):
+    water_amount = present_resources[0] - water
+    milk_amount = present_resources[1] - milk
+    coffee_amount = present_resources[2] - coffee
+    present_resources[0] = water_amount
+    present_resources[2] = coffee_amount
+    present_resources[1] = milk_amount
+    print(f"Here is ${final_change:.2f} in change")
+    print(f"Here is your {order} ☕️. Enjoy!")
+    return present_resources
+
+
+def call_function():
+    if order == "espresso":
+        process(order, present_resources, final_change)
+    elif order == "latte":
+        process(order, present_resources, final_change)
+    else:
+        process(order, present_resources, final_change)
+
+
+def process_the_resource():
+    new_resources = []
+    global present_resources
+    present_resources = []
+    new_resources.append(resources["water"])
+    new_resources.append(resources["milk"])
+    new_resources.append(resources["coffee"])
+    present_resources = new_resources
+    return present_resources
+
+
+the_process = True
+another_order = 0
+profit = 0
+
+while the_process:
+    order = input("   What would you like? (espresso/latte/cappuccino): ").lower()
+    if order == "off":
+        the_process = False
+    elif order == "report" and another_order == 0:
+        print(f" Water: {resources['water']}ml")
+        print(f" Milk: : {resources['milk']}ml")
+        print(f" Coffee: {resources['coffee']}ml")
+        print(f" Money: {profit}")
+    elif order == "report" and another_order >= 1:
+        print(f" Water: {present_resources[0]}ml")
+        print(f" Milk: : {present_resources[1]}ml")
+        print(f" Coffee: {present_resources[2]}ml")
+        print(f" Money: {profit}")
+    else:
+        cost_amount = menu[order]["cost"]
+        profit += cost_amount
+        water = menu[order]["ingredients"]["water"]
+        coffee = menu[order]["ingredients"]["coffee"]
+        milk = menu[order]["ingredients"]["milk"]
+
+        another_order += 1
+        if another_order == 1:
+            process_the_resource()
+            check_pay()
+            final_change = total_paid - cost_amount
+            if total_paid < cost_amount:
+                print("Sorry that's not enough money. Money refunded.")
+            else:
+                call_function()
+
+        elif another_order > 1:
+            water_resources = present_resources[0]
+            coffee_resources = present_resources[2]
+            milk_resources = present_resources[1]
+            if water_resources < water:
+                print("Sorry there is not enough water.")
+                the_process = False
+            elif milk_resources < milk:
+                print("Sorry, there is not enough milk")
+                the_process = False
+            else:
+                check_pay()
+                final_change = total_paid - cost_amount
+                if total_paid < cost_amount:
+                    print("Sorry that's not enough money. Money refunded.")
+                else:
+                    call_function()
