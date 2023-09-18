@@ -63,6 +63,7 @@ Day 62: August 30
 Day 66: September 12
 Day 67: September 13
 Day 68: September 14
+Day 69: September 18; Used 4-5 days
 
 
 Library learned so far:
