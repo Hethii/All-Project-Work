@@ -64,6 +64,11 @@ Day 66: September 12
 Day 67: September 13
 Day 68: September 14
 Day 69: September 18; Used 4-5 days
+Day 70: September 18
+Day 71: September 18
+Day 72: September 19
+Day 73: September 20
+
 
 
 Library learned so far:
