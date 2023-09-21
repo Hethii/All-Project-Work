@@ -44,12 +44,9 @@ while game_is_on:
 
     # Detect collision with tail
     for avia in snake.new_avia[1:]:
-         if snake.head.distance(avia) < 10:
+        if snake.head.distance(avia) < 10:
             game_is_on = False
             score.game_over()
-
-
-
 
 
 screen.exitonclick()
