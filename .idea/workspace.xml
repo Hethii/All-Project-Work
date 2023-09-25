@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c29ec130-6e5d-4d37-ae36-d5dbe009a4db" name="Changes" comment="Add-Day-69">
-      <change afterPath="$PROJECT_DIR$/Day-72/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day-72/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day-72/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day-72/requirements.txt" afterDir="false" />
+    <list default="true" id="c29ec130-6e5d-4d37-ae36-d5dbe009a4db" name="Changes" comment="Add-Day-75">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,9 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/GitHub2/All-Project-Work/Day-69/instance&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/GitHub2/Day-71&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -44,12 +43,41 @@
       <recent name="C:\Users\hp\Desktop\GitHub2\All-Project-Work\Day-69B" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\GitHub2\All-Project-Work\Day-75-Google_Trends_and_Data_Visualisation" />
+      <recent name="C:\Users\hp\Desktop\GitHub2\All-Project-Work\Day-74-Agg_Merge_Data_with_Panda" />
+      <recent name="C:\Users\hp\Desktop\GitHub2\All-Project-Work\Day-73-Matplotlib" />
       <recent name="C:\Users\hp\Desktop\GitHub2\All-Project-Work\Day-72\instance" />
       <recent name="C:\Users\hp\Desktop\GitHub2\All-Project-Work\Day-72" />
-      <recent name="C:\Users\hp\Desktop\GitHub2\All-Project-Work\Day-70-Git" />
-      <recent name="C:\Users\hp\Desktop\GitHub2\All-Project-Work\Day-69\instance" />
-      <recent name="C:\Users\hp\Desktop\GitHub2\All-Project-Work\Day-69" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="All-Project-Work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_KEY" value="8BYkEfBA6O6donzWlSihBXox7C0sKR6b" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day-72" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day-72/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,12 +102,63 @@
       <option name="project" value="LOCAL" />
       <updated>1695033241004</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add-Day-72-Initial Commit">
+      <created>1695044541844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044541844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add-Day-72- Create Procfile">
+      <created>1695045377030</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045377030</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add-Day-73">
+      <created>1695208913134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695208913134</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add-Day-74">
+      <created>1695319356671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695319356671</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add-Day-75">
+      <created>1695401423378</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695401423378</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add-Day-69" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add-Day-69" />
+    <MESSAGE value="Add-Day-72-Initial Commit" />
+    <MESSAGE value="Add-Day-72- Create Procfile" />
+    <MESSAGE value="Add-Day-73" />
+    <MESSAGE value="Add-Day-74" />
+    <MESSAGE value="Add-Day-75" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add-Day-75" />
   </component>
 </project>

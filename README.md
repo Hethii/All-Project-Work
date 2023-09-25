@@ -68,6 +68,9 @@ Day 70: September 18
 Day 71: September 18
 Day 72: September 19
 Day 73: September 20
+Day 74: September 21
+Day 75: September 22
+Day 76: September 24/25
 
 
 
