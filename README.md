@@ -72,10 +72,11 @@ Day 74: September 21
 Day 75: September 22
 Day 76: September 24/25.
 Day 77: September 26
+Day 78: October 8
 
 
 
-Library learned so far:
+Library learned so far:                                                                                                                                                                     
 1. Turtle: goto(), getheading(), setheading(), listening and call function, write, color, 
 self.shape("circle"), self.penup(), self.shapesize(), self.color("blue"), self.speed("fastest"), self.refresh()
 Screen(), screen.title(), image = "", screen.addshape(image),screen.setup()
